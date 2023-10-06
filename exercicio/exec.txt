@@ -1,0 +1,9 @@
+
+O que é UTF-8? um tipo de codificaçao binaria Pode representar qualquer caractere universal padrão 
+
+Para que serve meta charset?  Essa tag serve para que os navegadores saibam como devem renderizar os textos incluídos em uma página específica.
+
+Para que serve meta name? Descrevem o conteúdo do seu site para os buscadores
+
+Para que serve meta content? Garante que os navegadores irão tratar seu documento da maneira mais apropriada
+

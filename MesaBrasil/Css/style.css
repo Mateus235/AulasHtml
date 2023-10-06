@@ -1,0 +1,42 @@
+ @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&family=Fuggles&family=Orbitron:wght@500&family=Oswald&display=swap');
+.titulo-paragrafo{
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    padding: 12px;
+    border:10px solid black;
+    margin:25px;
+    background-color: bisque;
+    justify-content: center;
+    
+}
+body{
+    display:grid;
+    place-items: center;
+    background-color: green;
+    
+}
+
+.titulo-2{
+    border:20px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    font-family:'Croissant One', cursive;
+
+}
+
+.link{
+    color: white;
+    text-decoration: underline solid black;
+}
+.link-2{
+    color: white;
+    text-decoration: underline solid black;
+}
+#mesaBrasil{
+    width: 200px;
+}
+.titulo-5{
+    border: 12px solid black;
+    border-radius: 30px;
+    padding: 12px;
+}

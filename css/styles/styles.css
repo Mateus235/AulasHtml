@@ -1,0 +1,24 @@
+/* Teste External */
+h3{
+    color: chartreuse;
+    font-size: 60px;
+    font-family: Arial;
+}
+
+ul{
+    color: darkblue;
+    font-size: 30PX;
+    border: 1px solid blue;
+    padding: 10px;
+
+}
+
+
+
+li{
+    
+   
+    color: darkblue;
+    font-size: 30PX;
+
+}

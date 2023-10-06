@@ -1,0 +1,58 @@
+
+
+body{
+
+  display: flex;
+
+  align-items:center;
+
+  text-align: center;
+
+  justify-content: center;
+
+  padding: 12px; 
+
+  background-image: url(/receita2/CSS/img/fundo.png);
+
+
+}
+
+ 
+
+#ingre {
+
+border: 5px solid black;
+
+width: 500px;
+
+  background-image: url(/receita2/CSS/img/chefe.png);
+
+}
+
+.img{
+
+  width: 300px;
+
+  border: 5px solid black;
+
+  height: 200px;
+
+  margin: auto;
+
+}
+
+.preparo{
+
+  border:5px solid black;
+
+width: 500px;
+
+  background-image: url(/receita2/CSS/img/chefe.png);
+
+}
+
+.pao{
+
+color:white;
+
+}

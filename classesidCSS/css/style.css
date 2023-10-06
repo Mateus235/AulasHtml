@@ -1,0 +1,26 @@
+.paragrafo{
+    background-color:royalblue;
+    color: brown;
+    padding: 10px;
+}
+/* id */
+#titulo-com-id {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+/* Regra */
+
+h1{
+    border-bottom: 5px solid black;
+
+}
+
+.class-titulo{
+    border-bottom: 5px solid bisque;
+}
+
+#id-Titulo{
+    border-bottom: 5px solid red;
+}
