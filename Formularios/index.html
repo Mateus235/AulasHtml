@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="/Formularios/CSS/style.css">
+</head>
+<body>
+    <!-- Primeiro Formulario -->
+    <h1>Formularios</h1>
+
+    <form action="">
+        <div>
+            <label for="">Nome</label>
+            <input type="text">
+        </div>
+    </form>
+
+    <!-- Atributo Action e method -->
+
+    <h1>Formulários</h1>
+
+    <form action="registro.php" method="get">
+        <div>
+            <label >Nome:</label>
+            <input type="text">
+        </div>
+
+        <!-- Atributo Name -->
+
+        <div>
+            <label>idade</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- Atributo label -->
+        <div>
+            <label for="age">idade:</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- Select -->
+        <div>
+            <label for="cidade">Selecione sua Cidade</label>
+            <Select name="cidade">
+                <option value="São paulo">São paulo</option>
+                <option value="Taboão da Serra">Taboão da Serra</option>
+                <option value="Osasco">Osasco</option>
+            </Select>
+        </div>
+        
+        <!-- Selected -->
+        <div>
+            <label for="Times">Quem vai ganhar a proxima copa do mundo?</label>
+            <select name="Times">
+                <option value="Inglaterra">Inglaterra</option>
+                <option value="França">França</option>
+                <option value="Alemanha">Alemanha</option>
+                <option value="Brasil"Selected>São Paulo fc</option>
+            </select>
+        </div>
+
+        <!-- Seleção de varios Select -->
+        <div>
+            <label for="acessorios">Selecione os acessorios do seu computador</label>
+            <select name="acessorios" multiple>
+                <option value="mouse">mouse</option>
+                <option value="Teclado">Teclado</option>
+                <option value="fone-de-Ouvido">fone-de-Ouvido</option>
+                <option value="Webcam">Webcam</option>
+            </select>
+        </div>
+
+        <!-- TextArea -->
+        <div>
+            <label for="feedback">Descreva o seu feedback sobre nosso site</label>
+            <textarea name="feedback"></textarea>
+        </div>
+        <!-- Fieldset e Legend -->
+
+        <div>
+            <fieldset>
+                <legend>Informações do Usuario</legend>
+                <input type="text" name="nome" placeholder="nome">
+                <input type="email" name="email" placeholder="e-mail">
+                <input type="password" name="senha" placeholder="senha">
+                <input type="submit" value="enviar">
+            </fieldset>
+        </div>
+
+        <!-- DataList -->
+        <div>
+            <label for="livros">Selecione o livro:</label>
+            <input type="text" list="livros" name="livros">
+            <DataList id="livros">
+                <option value="Jogador numero1"></option>
+                <option value="thanos gado"></option>
+                <option value="animais fantasticos"></option>
+                <option value="turma da monica"></option>
+            </DataList>
+        </div>
+
+         <!-- submit -->
+         <input type="submit" value="Enviar">
+    </form>
+
+
+
+</body>
+</html>

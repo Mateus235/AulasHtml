@@ -1,0 +1,30 @@
+body{
+   padding:10px;
+}
+.header{
+   background-image: url(/exercicio-5/img/fundoPreto.jpg);
+   color: #fff;
+   text-align: center;
+   height: 100px;
+}
+.container{
+   display: flex;
+   width: 800px;
+   height: 800px;
+   margin: 10px;
+   border: 15px solid black;
+   border-radius: 30px;
+}
+
+.bibliografia{
+   margin-left: 20px;
+   border: 15px solid black;
+   border-radius: 30px;
+   text-align: center;
+   
+}
+
+.paragrafo{
+   width: 800px;
+   
+}

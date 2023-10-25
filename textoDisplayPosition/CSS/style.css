@@ -171,34 +171,90 @@ font-size: larger;
 
     .absolute{
         position: absolute;
-        height: 100px;
         width: 100px;
-        background-color:forestgreen;
+        height: 100px;
+        background-color:#785;
         color: #fff;
         margin-top: 2px;
-        margin-right: 2px;
+        right: 2px;
     }
 
     /* position relative + absoluta */
     
     .block-relativo{
+        position: relative;
         width: 250px;
         height: 250px;
         border: 2px solid blue;
         margin-top: 100px;
-        position: relative;
+        
     }
     .bloco-absoluto-1,.bloco-absoluto-2{
+      
         width: 70px;
         height: 70px;
         background-color: brown;
         position: absolute;
+       
     }
         .bloco-absoluto-1{
-            top: 2px;
-            left: 2px;
+            top: 10px;
+            left: 10px;
         }
         .bloco-absoluto-2{
             bottom: 10px;
             right: 10px;
         }
+
+    /*posição fixada  */
+    .bloco-fixado{
+        width:100px ;
+        height: 100px;
+        background-color:blue;
+        position: fixed;
+        top: 100px;
+        
+    } 
+
+    /* posição sticky */
+    .sticky{
+        width: 150px;
+        height: 15opx;
+        background-color: firebrick;
+        color: aliceblue;
+        border: 2px solid black;
+        position: sticky;
+        top: 10px;
+        margin-right:1500px ;    
+    }
+
+
+
+    /* z-index */
+    .bloco-absoluto-5,.bloco-absoluto-6,.bloco-absoluto-7{
+        width: 50px;
+        height: 60px;
+        background-color: coral;
+        position: absolute;
+    }
+
+
+    .bloco-absoluto-5{
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+
+    .bloco-absoluto-6{
+        top: 15px;
+        left: 15px;
+        background-color: darkgreen;
+        z-index: 2;
+    }
+
+    .bloco-absoluto-7{
+        top: 30px;
+        left: 30px;
+        background-color: lightseagreen;
+        z-index: 1;
+    }
