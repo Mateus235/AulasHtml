@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
     <link rel="stylesheet" href="/Formularios/CSS/style.css">
 </head>
+
 <body>
     <!-- Primeiro Formulario -->
     <h1>Formularios</h1>
@@ -23,7 +25,7 @@
 
     <form action="registro.php" method="get">
         <div>
-            <label >Nome:</label>
+            <label>Nome:</label>
             <input type="text">
         </div>
 
@@ -49,7 +51,7 @@
                 <option value="Osasco">Osasco</option>
             </Select>
         </div>
-        
+
         <!-- Selected -->
         <div>
             <label for="Times">Quem vai ganhar a proxima copa do mundo?</label>
@@ -57,7 +59,7 @@
                 <option value="Inglaterra">Inglaterra</option>
                 <option value="França">França</option>
                 <option value="Alemanha">Alemanha</option>
-                <option value="Brasil"Selected>São Paulo fc</option>
+                <option value="Brasil" Selected>São Paulo fc</option>
             </select>
         </div>
 
@@ -101,11 +103,141 @@
             </DataList>
         </div>
 
-         <!-- submit -->
-         <input type="submit" value="Enviar">
+        <!-- submit -->
+        <input type="submit" value="Enviar">
     </form>
+
+    <!-- Fieldset e Legend Novo -->
+    <div>
+        <fieldset>
+            <legend>Insira o seu endereço:</legend>
+            <label for="rua">Rua</label>
+            <input type="text" name="rua">
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro">
+        </fieldset>
+    </div>
+
+    <!-- Datalist -->
+    <div>
+        <label for="livro">Selecione o livro</label>
+        <input type="text" name="livro" list="livros">
+
+        <datalist id="livros">
+            <option value="Crepusculo"></option>
+            <option value="Harry Potter e a Pedra Filosofal"></option>
+            <option value="A Hospedeira"></option>
+            <option value="Harry Potter e o Cálice de Fogo"></option>
+        </datalist>
+    </div>
+
+    <!-- Password -->
+    <div>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha">
+    </div>
+
+    <!--  Input radio -->
+    <div>
+        <label for="genero">Qual o seu gênero:</label>
+        <div class="radio">
+            <input type="radio" value="Feminino" name="genero">
+            <label for="feminino">Feminino</label>
+        </div>
+        <div class="radio">
+            <input type="radio" value="Masculino" name="genero">
+            <label for="masculino">Masculino</label>
+        </div>
+        <div class="radio">
+            <input type="radio" value="nao-binario" name="genero">
+            <label for="nao-binario">Não Binário</label>
+        </div>
+        <div class="radio">
+            <input type="radio" value="Outro" name="genero">
+            <label for="outro">Outro</label>
+        </div>
+
+        <!-- input checkbox -->
+        <div>
+            <label for="linguasEstrangeiras">
+                Quais linguas voce pretende estudar
+            </label>
+            <div class="radio">
+                <input type="checkbox" value="ingles" name="linguasEstrangeiras">
+                <label for="ingles">Ingles</label>
+            </div>
+        </div>
+
+        <div class="radio">
+            <input type="checkbox" value="Espanhol" name="linguasEstrangeiras">
+            <label for="espanhol">Espanhol</label>
+        </div>
+    </div>
+    <div class="radio">
+        <input type="checkbox" value="Alemao" name="linguasEstrangeiras">
+        <label for="alemao">Alemão</label>
+    </div>
+    </div>
+
+   <!-- input data -->
+   <div>
+    <label for="dataDeNascimento">Data de Nascimento</label>
+    <input type="date" name="dataDeNascimento">
+   </div>
+
+
+   <!-- Input file -->
+   <div>
+    <label for="Arquivo">Insira seu curriculo em PDF </label>
+    <input type="file" name="Arquivo" >
+   </div>
+   
+   <!-- Input number -->
+   <div>
+    <label for="Certificados">Quantos certificados voce possui?</label>
+    <input type="number" name="Certificados">
+   </div>
+   
+   <!-- Input email -->
+   <div>
+    <label for="EmailInserido">Insira o seu e-mail</label>
+    <input type="email" name="EmailInserido" >
+   </div>
+
+   <!-- ATRIBUTO Value -->
+   <div>
+    <label for="confirmarAula">voce assistiu s video de treinamento da empresa</label>
+    <input type="text" value="confirmo que assistir" name="confirmarAula" >
+   </div>
+
+   <!-- Atributo Disabled -->
+
+   <div>
+    <p>Informe o seu RG:</p>
+    <input type="text" value="Não precisa preencher" disabled>
+   </div>
+
+   <!-- Atributo placeholder -->
+   <div>
+    <label for="Pesquisa">Como achou o nosso site?</label>
+    <input type="text" name="Pesquisa" placeholder="No google ou instagram">
+   </div>
+
+   <!-- Atributo Required-Campo obrigatorio -->
+   <div>
+        <label for="soreNome">Digite o seu sobreNome:</label>
+        <input type="text" name="sobreNome" placeholder="sobreNome Completo" required>
+   </div>
+
+
+    <!-- Limpando/Resetando o Formulário -->
+    <input type="reset" value="Limpar">
+
+    <!-- Submit -->
+    <input type="submit" value="Enviar" />
 
 
 
 </body>
+
 </html>
